@@ -4,19 +4,24 @@
     box-shadow: none;
 }
 body{
-    background-color: rgb(207, 227, 227);
-    border: 0cap;
-    justify-items: center;
+   background-image: url("guess.avif");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
 }
 .box{
-    background-color: rgb(54, 178, 216);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 30px;
+    box-shadow: 0 8px 32px rgba(8, 198, 251, 0.82);
+    border: 1px solid rgb(243, 7, 195);
     width: 300px;
     height: auto;
     margin: auto;
     padding: 20px;
     text-align: center;
+}
+p{
+  font-size: 25px;
 }
 
     
